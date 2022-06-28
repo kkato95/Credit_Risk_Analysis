@@ -7,7 +7,10 @@ We then compared the new machinge learning models to reduce bias with BalancedRa
 
 ### Results
 
-1. Native Random Oversampling
+1. Native Random Oversampling - 
+
+The accuracy score is 0.657, which is a fair accuracy score. The model predicted true 65.7% of the time.
+In the classfication report, this model shows a high-risk prediction score of 0.01, meaning if the model identified a loan was high-risk, it was actually high risk 1% of the time. The recall value is 0.71, indicating if the loan was high risk, it was identified 71% of the time. 
 
 Accuracy Score:
 
@@ -20,7 +23,10 @@ Classification Report:
 
 
 
-2. SMOTE Oversampling
+2. SMOTE Oversampling - 
+
+The accuarcy score is 0.653, which is a little less accurate than our RandomOverSampling model.
+The precision is identical to the RandomOverSampling model. The recall value is .61, indicating SMOTE marked high risk correctly 61% of the time.
 
 Accuracy Score:
 
@@ -33,7 +39,9 @@ Classification Report:
 
 
 
-3. Undersampling
+3. Undersampling - 
+The Undersampling model shows an accuracy score of 0.653, very similar to the SMOTE model.
+The precision is the same as the last two models with high-risk loans with a 0.01 precision for high-risk loans. The recall is .69 for high-risk loan.
 
 Accuracy Score:
 ![3_Undersampling_accuracy_score](https://user-images.githubusercontent.com/99375741/176062225-239d8e61-fb94-4a4d-9a48-acce48d77a7f.png)
@@ -47,6 +55,9 @@ Classification Report:
 
 4. Combination (Over and Under) Sampling
 
+The accuracy score is fairly low at 0.544.
+The precision is identical to all previous models. The recall for high-risk is fairly high at .72.
+
 Accuracy Score:
 
 ![4_Combination_accuracy_score](https://user-images.githubusercontent.com/99375741/176062251-2fd5aa52-42c2-4da0-a74c-dcefcd11a139.png)
@@ -58,7 +69,10 @@ Classification Report:
 
 
 
-5. Balanced Random Forest Classifier
+5. Balanced Random Forest Classifier -
+
+The accuracy for the Random Forest Classifier high with a value of .789, indicating the model predicts correctly almost 70% of the time.
+The precision is higher than the previous 4 models, with a precision of .03 for the high risk loans. The recall is high for both the high-risk and low-risk loans. The Balanced Random Forest Classifier is the best model yet.
 
 Accuracy Score:
 
@@ -72,6 +86,11 @@ Classification Report:
 
 
 6. Easy Ensemble AdaBoost Classifier
+
+The accuracy score is .931; Model is extremly accurate.
+The precision score is 0.09 for the high-risk loans, meaning the score is 9x more precise the resampling models above.
+Th recall is .92 for high_risk and .94 for low_risk.
+The AdaBooth Classifier model is by far the best model for most all metrics we have analyzed.
 
 Accuracy Score:
 
