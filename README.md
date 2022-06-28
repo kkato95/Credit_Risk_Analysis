@@ -4,6 +4,15 @@
 We used imbalanced-learn and scikit-learn libraries on a dataset of loans and to evaluate models using resampling. We used RandomOverSampler and SMOTE algorithms and used ClusterCentroids to undersample the data. Then we used the combinatorial approach of over- and undersampling with SMOTEEN.
 We then compared the new machinge learning models to reduce bias with BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
+#### We begin by:
+
+Create Features and Target - Converted the string values to numerical using get_dummies().
+
+![features_target](https://user-images.githubusercontent.com/99375741/176074225-22ccb317-d47a-4444-bf75-a0d1ca4c6482.png)
+
+Then we trained our data.
+
+![train_data](https://user-images.githubusercontent.com/99375741/176075568-9536ba3e-ff6e-479b-9a2a-235808cafbf8.png)
 
 ### Results
 
