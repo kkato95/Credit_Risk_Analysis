@@ -13,6 +13,8 @@ Create Features and Target - Converted the string values to numerical using get_
 
 ![train_data](https://user-images.githubusercontent.com/99375741/176075568-9536ba3e-ff6e-479b-9a2a-235808cafbf8.png)
 
+
+
 ### Results
 
 1. Native Random Oversampling - 
@@ -52,10 +54,12 @@ Classification Report:
 
 
 3. Undersampling - 
+
 The Undersampling model shows an accuracy score of 0.653, very similar to the SMOTE model.
 The precision is the same as the last two models with high-risk loans with a 0.01 precision for high-risk loans. The recall is .69 for high-risk loan.
 
 Accuracy Score:
+
 ![3_Undersampling_accuracy_score](https://user-images.githubusercontent.com/99375741/176062225-239d8e61-fb94-4a4d-9a48-acce48d77a7f.png)
 
 
@@ -121,6 +125,7 @@ Accuracy Score:
 Classification Report:
 
 ![6_AdaBoost_classification](https://user-images.githubusercontent.com/99375741/176062349-fbf3756b-59b6-4632-b079-65db454b6b14.png)
+
 
 
 
