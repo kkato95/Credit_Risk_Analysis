@@ -10,7 +10,6 @@ Create Features and Target - Converted the string values to numerical using get_
 
 ![features_target](https://user-images.githubusercontent.com/99375741/176074225-22ccb317-d47a-4444-bf75-a0d1ca4c6482.png)
 
-Then we trained our data.
 
 ![train_data](https://user-images.githubusercontent.com/99375741/176075568-9536ba3e-ff6e-479b-9a2a-235808cafbf8.png)
 
