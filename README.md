@@ -23,6 +23,8 @@ Classification Report:
 
 
 
+
+
 2. SMOTE Oversampling - 
 
 The accuarcy score is 0.653, which is a little less accurate than our RandomOverSampling model.
@@ -39,6 +41,8 @@ Classification Report:
 
 
 
+
+
 3. Undersampling - 
 The Undersampling model shows an accuracy score of 0.653, very similar to the SMOTE model.
 The precision is the same as the last two models with high-risk loans with a 0.01 precision for high-risk loans. The recall is .69 for high-risk loan.
@@ -50,6 +54,9 @@ Accuracy Score:
 Classification Report:
 
 ![3_Undersampling_classification](https://user-images.githubusercontent.com/99375741/176062234-d144dc92-db15-40e9-848f-f739376bdba8.png)
+
+
+
 
 
 
@@ -69,6 +76,9 @@ Classification Report:
 
 
 
+
+
+
 5. Balanced Random Forest Classifier -
 
 The accuracy for the Random Forest Classifier high with a value of .789, indicating the model predicts correctly almost 70% of the time.
@@ -82,6 +92,9 @@ Accuracy Score:
 Classification Report:
 
 ![5_BalancedRandomForest_classification](https://user-images.githubusercontent.com/99375741/176062293-fb6749d1-ec5b-4d67-a2be-ce22b1d3cf3d.png)
+
+
+
 
 
 
@@ -103,5 +116,7 @@ Classification Report:
 
 
 
+
 #### Summary
 
+In total, after running all 6 maching learning models, the ensemble models responded much more favorably than did the oversampling models. All the oversampling models had low accuracy scores, low precision scores and low recall scores. The AdaBoost Ensemble model far outpreformed every other model, with the highest accuracy, precision, and recall scores. The recommended model to use would be AdaBoost model. Althouhgh AdaBoost preformed the best, this model still had a 989 false positives out of 17k loans in the test data.
