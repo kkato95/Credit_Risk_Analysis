@@ -12,8 +12,9 @@ Create Features and Target - Converted the string values to numerical using get_
 
 
 ![train_data](https://user-images.githubusercontent.com/99375741/176075568-9536ba3e-ff6e-479b-9a2a-235808cafbf8.png)
+  
+  
 
-/n/n
 
 ### Results
 
